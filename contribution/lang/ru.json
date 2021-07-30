@@ -639,10 +639,10 @@
  	 	"healing1": {
  	 	 	"name": {
  	 	 	 	"trans": "Боль",
- 	 	 	 	"eng": "Pain Away"
+ 	 	 	 	"eng": "Обезбол"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "У тебя мигрень? используй Pain Away™, чтобы избавиться от боли!",
+ 	 	 	 	"trans": "У тебя мигрень? используй Обезбол™, чтобы избавиться от боли!",
  	 	 	 	"eng": "Do you have headache? use Pain Away™ to relief your pain!"
  	 	 	}
  	 	},
@@ -718,7 +718,7 @@
  	 	},
  	 	"healingArea1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Боль в распылите",
+ 	 	 	 	"trans": "Спрей от боли",
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
@@ -1362,11 +1362,11 @@
  	 	 	 	"vars": [
  	 	 	 	 	"skipCount"
  	 	 	 	],
- 	 	 	 	"trans": "Пропуская ${skipCount}",
+ 	 	 	 	"trans": "Пропуск ${skipCount}",
  	 	 	 	"eng": "Skipping ${skipCount}"
  	 	 	},
  	 	 	"skipAvailable": {
- 	 	 	 	"trans": "Перейти доступен",
+ 	 	 	 	"trans": "Пропуск доступен",
  	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
@@ -1408,7 +1408,7 @@
  	 	 	 	"eng": "Gear Score"
  	 	 	},
  	 	 	"location": {
- 	 	 	 	"trans": "место нахождения",
+ 	 	 	 	"trans": "локация",
  	 	 	 	"eng": "location"
  	 	 	},
  	 	 	"onlineStatus": {
@@ -1613,11 +1613,11 @@
  	 	 	},
  	 	 	"disableAttackBar": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Отключить батонку",
+ 	 	 	 	 	"trans": "Отключить бар атаки в бою",
  	 	 	 	 	"eng": "Disable Attack Timing Bar"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Отключение бара синхронизации атаки не предоставит дополнительный ущерб",
+ 	 	 	 	 	"trans": "Отключение бара атаки не предоставит дополнительный ущерб",
  	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
  	 	 	 	}
  	 	 	},
@@ -1892,7 +1892,7 @@
  	 	 	 	 	"eng": "Compatible Item Identified"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "Всё Системы Готовв",
+ 	 	 	 	 	"trans": "Все системы Готовы",
  	 	 	 	 	"eng": "All system ready"
  	 	 	 	}
  	 	 	},
@@ -1930,7 +1930,7 @@
  	 	},
  	 	"noPrintableCaches": {
  	 	 	"title": {
- 	 	 	 	"trans": "Чертежи Снаряжения не найден",
+ 	 	 	 	"trans": "Чертежи Снаряжения не найдены",
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
@@ -1948,7 +1948,7 @@
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"withdraw": {
- 	 	 	 	"trans": "Изымать",
+ 	 	 	 	"trans": "Снять",
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"upgradeSlot": {
@@ -1968,11 +1968,11 @@
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDeposit": {
- 	 	 	 	 	"trans": "Сколько вы хотели бы внести депозит?",
+ 	 	 	 	 	"trans": "Сколько вы хотели бы внести?",
  	 	 	 	 	"eng": "How much would you like to deposit?"
  	 	 	 	},
  	 	 	 	"selectWithdraw": {
- 	 	 	 	 	"trans": "Сколько вы хотели бы выйти?",
+ 	 	 	 	 	"trans": "Сколько вы хотели бы снять?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
@@ -1985,11 +1985,11 @@
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "Принимать биткойны из банка",
+ 	 	 	 	"trans": "Снять биткойны из банка",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "Поставить предметы в ваше хранилище",
+ 	 	 	 	"trans": "Поместить предметы в ваше хранилище",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
@@ -2006,7 +2006,7 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "Вы нашли старую запертую безопасную коробку, кажется, пост-это с помощью текста, написанного на нем.",
+ 	 	 	 	"trans": "Вы нашли старый запертый сейф, там, похоже, открытка с каким-то текстом, написанным на ней.",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -2024,7 +2024,7 @@
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "Длительное нажать на Multi-select",
+ 	 	 	 	"trans": "Длительное нажатие на Multi-select",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
@@ -2034,7 +2034,7 @@
  	 	 	 	"eng": "items"
  	 	 	},
  	 	 	"secretKeys": {
- 	 	 	 	"trans": "секретные клавиши",
+ 	 	 	 	"trans": "секретные ключи",
  	 	 	 	"eng": "secret keys"
  	 	 	},
  	 	 	"equipped": {
@@ -2046,11 +2046,11 @@
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"itemInbox": {
- 	 	 	 	"trans": "Пункт входящих",
+ 	 	 	 	"trans": "Почта",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
  	 	 	"crafting": {
- 	 	 	 	"trans": "Оседание",
+ 	 	 	 	"trans": "Создание",
  	 	 	 	"eng": "Crafting"
  	 	 	},
  	 	 	"autoScrap": {
@@ -2071,14 +2071,14 @@
  	 	 	 	 	"eng": "Extensive repair required"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "Этот предмет нарушен, принести его к оружию Смита для ремонта",
+ 	 	 	 	 	"trans": "Этот предмет сломан, принесите его в оружейную Смита для ремонта",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
  	 	 	"title": {
- 	 	 	 	"trans": "Секретные клавиши",
+ 	 	 	 	"trans": "Секретные ключи",
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
@@ -2092,14 +2092,14 @@
  	 	},
  	 	"npc": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "Это еще не разблокировано, попробуйте уровень вашего персонажа",
+ 	 	 	 	"trans": "Не разблокировано, попробуйте повысить уровень",
  	 	 	 	"eng": "This is not unlocked yet, try level up your character"
  	 	 	},
  	 	 	"repairItems": {
  	 	 	 	"vars": [
  	 	 	 	 	"repairFee"
  	 	 	 	],
- 	 	 	 	"trans": "Ремонт всех товаров (${repairFee} bitcoin)",
+ 	 	 	 	"trans": "Ремонт всех предметов (${repairFee} bitcoin)",
  	 	 	 	"eng": " Repair all items (${repairFee} Bitcoin)"
  	 	 	}
  	 	},
@@ -2112,7 +2112,7 @@
  	 	"itemDetails": {
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Это будет сбросить всю калибровку на вашем элементе, а также снова выполнить его торгуемым. \n       Вы уверены, что хотите продолжить?",
+ 	 	 	 	 	"trans": "Это сбросит всю калибровку на вашем предмете, а также снова сделает его доступным для продажи. \n       Вы уверены, что хотите продолжить?",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item, also make it tradable again. \n      Are you sure you want to proceed?"
  	 	 	 	},
  	 	 	 	"trans": "Сброс к заводским настройкам",
@@ -2131,7 +2131,7 @@
  	 	},
  	 	"gang": {
  	 	 	"confirmKickMember": {
- 	 	 	 	"trans": "Вы уверены, что хотите ударить этого игрока из вашей банды?",
+ 	 	 	 	"trans": "Вы уверены, что хотите удалить этого игрока из вашей банды?",
  	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
  	 	 	},
  	 	 	"memberContribution": {
@@ -2539,7 +2539,7 @@
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Множитель БТК",
+ 	 	 	 	"trans": "Множитель BTC",
  	 	 	 	"eng": "BTC multiplier"
  	 	 	},
  	 	 	"description": {
